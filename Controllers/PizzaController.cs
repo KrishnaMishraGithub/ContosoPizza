@@ -8,10 +8,7 @@ namespace ContosoPizza.Controllers;
 [Route("[controller]")]
 public class PizzaController : ControllerBase
 {
-    
-    public PizzaController()
-    {
-    }
+  
 // GET all action
     [HttpGet]
     public ActionResult<List<Pizza>> Get() 
